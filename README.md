@@ -9,4 +9,4 @@ This is presented as an example and you will probably have to customize it for y
 You need to call this script from your main kickstart file (the one which you assign during boot). It runs and generates a file named /tmp/autogen.ks on the installation system which will be used through the include parameter of the main kickstart file.
 
 ## How can I use this
-You need to download and run the python script. You can do this by downloading it or by adding the file to the custom ISO file and temporarily mounting the install media to run it.
+The installer needs to run the python script during the %pre phase. You can do this by downloading it or by adding the file to the custom ISO file and temporarily mounting the install media to run it like presented on the example.ks file.
